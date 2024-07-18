@@ -1,0 +1,154 @@
+.App {
+  display: flex;
+  width: 100%;
+  height: 105vh;
+  background-color: #E5EBF1;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  width: 450px;
+  padding: 20px;
+  height: 100vh;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar1 {
+  width: 450px;
+  padding: 20px;
+  height: 100vh;
+  border-right: 1px solid #ccc;
+  top: 0;
+  z-index: 1;
+}
+
+.cards-container {
+  margin-left: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+.alternates {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+
+
+.cards-first {
+  background-color: white;
+  margin: 10px;
+  align-items: center;
+  width: 1000px;
+  overflow: hidden;
+  padding-left: 10px;
+}
+
+.card-second {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* .cards-container .default .card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  background-color: white;
+} */
+
+/* .cards-container .alternate .card {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  margin: 20px;
+  width: 250px;
+
+} */
+
+.pagination button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  width: 40px;
+  height: 40px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#feedbacForm {
+  margin-top: 10px;
+}
+
+#feedbackForm textarea {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+#feedbackForm button {
+  padding: 5px 10px;
+}
+
+.view-toggle {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.toggle-btn button {
+  padding: 10px;
+  width: 100px;
+  border: none;
+}
+
+.alternates {
+  width: 1000px;
+}
+
+.feedback-component {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 40px 0;
+  font-size: 1.5rem;
+}
+
+.feedback-btn {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-size: inherit;
+  background-color: #E7A2A4;
+  border: none;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  gap: 10px;
+}
+
+input {
+  height: 30px;
+  border: none;
+
+}
